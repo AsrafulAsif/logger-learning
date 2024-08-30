@@ -1,0 +1,7 @@
+2024-08-30 16:40:36 - I am error log.
+2024-08-30 16:40:46 - [Producer clientId=logger-learning-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-08-30 16:40:46 - Metrics scheduler closed
+2024-08-30 16:40:46 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-08-30 16:40:46 - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-08-30 16:40:46 - Metrics reporters closed
+2024-08-30 16:40:46 - App info kafka.producer for logger-learning-producer-1 unregistered

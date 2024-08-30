@@ -1,15 +1,17 @@
 package com.example.logger_learning;
 
-import lombok.extern.slf4j.Slf4j;
+import com.example.logger_learning.utils.CustomLogger;
+import lombok.AllArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-@Slf4j
+@AllArgsConstructor
 public class SchedulerTask {
+    private final CustomLogger customLogger;
 
-    @Scheduled(fixedDelay = 1000)
+    @Scheduled(fixedDelay = 60000)
     public void logPrint(){
-        log.info("-----logPrint------");
+        customLogger.logError("I am error log.");
     }
 }

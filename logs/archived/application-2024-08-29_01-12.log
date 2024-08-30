@@ -1,0 +1,7 @@
+2024-08-29 01:12:13 - Atonu is a gay!
+2024-08-29 01:12:31 - [Producer clientId=logger-learning-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-08-29 01:12:31 - Metrics scheduler closed
+2024-08-29 01:12:31 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-08-29 01:12:31 - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-08-29 01:12:31 - Metrics reporters closed
+2024-08-29 01:12:31 - App info kafka.producer for logger-learning-producer-1 unregistered

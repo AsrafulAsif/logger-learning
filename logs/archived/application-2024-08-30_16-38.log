@@ -1,14 +1,14 @@
-2024-08-30 16:55:56 - Starting LoggerLearningApplication using Java 17.0.12 with PID 3424 (D:\SpringBoot_Projects\logger-learning\target\classes started by Asif in D:\SpringBoot_Projects\logger-learning)
-2024-08-30 16:55:56 - No active profile set, falling back to 1 default profile: "default"
-2024-08-30 16:55:57 - Tomcat initialized with port 8081 (http)
-2024-08-30 16:55:57 - Starting service [Tomcat]
-2024-08-30 16:55:57 - Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-08-30 16:55:57 - Initializing Spring embedded WebApplicationContext
-2024-08-30 16:55:57 - Root WebApplicationContext: initialization completed in 906 ms
-2024-08-30 16:55:57 - Tomcat started on port 8081 (http) with context path '/'
-2024-08-30 16:55:57 - Started LoggerLearningApplication in 2.015 seconds (process running for 2.653)
-2024-08-30 16:55:57 - I am error log.
-2024-08-30 16:55:58 - ProducerConfig values: 
+2024-08-30 16:38:33 - Starting LoggerLearningApplication using Java 17.0.12 with PID 6688 (D:\SpringBoot_Projects\logger-learning\target\classes started by Asif in D:\SpringBoot_Projects\logger-learning)
+2024-08-30 16:38:33 - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:38:34 - Tomcat initialized with port 8081 (http)
+2024-08-30 16:38:34 - Starting service [Tomcat]
+2024-08-30 16:38:34 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-30 16:38:34 - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:38:34 - Root WebApplicationContext: initialization completed in 969 ms
+2024-08-30 16:38:35 - Tomcat started on port 8081 (http) with context path '/'
+2024-08-30 16:38:35 - Started LoggerLearningApplication in 2.255 seconds (process running for 3.087)
+2024-08-30 16:38:35 - I am error log.
+2024-08-30 16:38:35 - ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -100,16 +100,10 @@
 	transactional.id = null
 	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
 
-2024-08-30 16:55:58 - initializing Kafka metrics collector
-2024-08-30 16:55:58 - [Producer clientId=logger-learning-producer-1] Instantiated an idempotent producer.
-2024-08-30 16:55:58 - Kafka version: 3.7.1
-2024-08-30 16:55:58 - Kafka commitId: e2494e6ffb89f828
-2024-08-30 16:55:58 - Kafka startTimeMs: 1725015358133
-2024-08-30 16:55:58 - [Producer clientId=logger-learning-producer-1] Cluster ID: UsFxC3YQRo2sua6Yw5aD2g
-2024-08-30 16:55:58 - [Producer clientId=logger-learning-producer-1] ProducerId set to 3001 with epoch 0
-2024-08-30 16:55:59 - [Producer clientId=logger-learning-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2024-08-30 16:55:59 - Metrics scheduler closed
-2024-08-30 16:55:59 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-08-30 16:55:59 - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
-2024-08-30 16:55:59 - Metrics reporters closed
-2024-08-30 16:55:59 - App info kafka.producer for logger-learning-producer-1 unregistered
+2024-08-30 16:38:35 - initializing Kafka metrics collector
+2024-08-30 16:38:35 - [Producer clientId=logger-learning-producer-1] Instantiated an idempotent producer.
+2024-08-30 16:38:35 - Kafka version: 3.7.1
+2024-08-30 16:38:35 - Kafka commitId: e2494e6ffb89f828
+2024-08-30 16:38:35 - Kafka startTimeMs: 1725014315563
+2024-08-30 16:38:36 - [Producer clientId=logger-learning-producer-1] Cluster ID: UsFxC3YQRo2sua6Yw5aD2g
+2024-08-30 16:38:36 - [Producer clientId=logger-learning-producer-1] ProducerId set to 3000 with epoch 0
