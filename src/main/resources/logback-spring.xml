@@ -24,8 +24,21 @@
 <!--&lt;!&ndash;            <maxHistory>20</maxHistory> optional -->
         </rollingPolicy>
     </appender>
+
+    <appender name="ASYNC_KAFKA" class="ch.qos.logback.classic.AsyncAppender">
+        <!-- Adjust buffer size and other settings as needed -->
+        <queueSize>5000</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <appender-ref ref="KAFKA"/>
+    </appender>
+
+    <appender name="KAFKA" class="com.example.logger_learning.appender.KafkaAppender">
+        <bootstrapServers>localhost:9092</bootstrapServers>
+        <topic>error-topic</topic>
+    </appender>
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="ROLLING" />
+        <appender-ref ref="ASYNC_KAFKA" />
     </root>
 </configuration>

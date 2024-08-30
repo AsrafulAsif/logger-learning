@@ -1,17 +1,24 @@
 package com.example.logger_learning;
 
-import com.example.logger_learning.utils.CustomLogger;
+
+import com.example.logger_learning.kafka_producer.KafkaProducer;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
 @AllArgsConstructor
+@Slf4j
 public class SchedulerTask {
-    private final CustomLogger customLogger;
+     @Autowired
+    KafkaProducer kafkaProducer;
 
-    @Scheduled(fixedDelay = 60000)
+    @Scheduled(fixedDelay = 1000)
     public void logPrint(){
-        customLogger.logError("I am error log.");
+//        log.info("logPrint");
+        log.error("logPrint");
+//        kafkaProducer.sendStringData("error-topic","error-topic");
     }
 }
