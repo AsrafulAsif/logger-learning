@@ -36,6 +36,7 @@
         <bootstrapServers>localhost:9092</bootstrapServers>
         <topic>error-topic</topic>
     </appender>
+
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="ROLLING" />
